@@ -20,7 +20,7 @@ defmodule Amnesia.Mixfile do
   end
 
   defp deps do
-    [ { :exquisite, "~> 0.1.7" },
+    [ { :exquisite, git: "https://github.com/meh/exquisite", ref: "ff8446c9aab2dfcfcc1796849575fe86c708b6ba"},
       { :ex_doc, "~> 0.15", only: [:dev] } ]
   end
 end
